@@ -36,3 +36,5 @@ Synthetic insurance dataset with:
 - `Insurance_Report.pdf` – Final report
 - `charges_by_smoker.png` – Chart
 - `charges_distribution.png` – Chart
+- 'bmi_vs_charges.png' – Chart
+- 'boxplot_by_region.png' – Chart
