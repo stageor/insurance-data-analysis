@@ -111,7 +111,7 @@ Insight: Region has limited influence compared to lifestyle factors.
 
 ## 7. Project Structure
 insurance-data-analysis/
-│
+
 ├── Insurance Report.ipynb
 ├── Insurance_Report.pdf
 ├── bmi_vs_charges.png
