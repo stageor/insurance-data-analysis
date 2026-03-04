@@ -131,12 +131,13 @@ insurance-data-analysis/
 ├── charges_distribution.png
 └── README.md
 
+
 ---
 
 ## 8. How to Run
 
 1. Clone the repository  
-2. Install required libraries:
+2. Install required libraries
 pip install pandas numpy matplotlib seaborn
 3. Open `Insurance Report.ipynb` in Jupyter Notebook  
 4. Run all cells  
