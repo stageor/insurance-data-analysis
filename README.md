@@ -2,52 +2,54 @@
 
 ## 1. Project Overview
 
-This project analyzes an insurance dataset to understand the key factors influencing medical insurance charges. The objective is to identify which variables have the strongest impact on costs and derive actionable insights using exploratory data analysis (EDA) and visualization.
+This project analyzes an insurance dataset to identify the factors influencing medical insurance charges. The goal is to understand which variables contribute most to cost variations using exploratory data analysis (EDA) and visualization.
 
-The dataset includes demographic and lifestyle attributes such as age, BMI, smoking status, number of children, sex, and region, along with corresponding insurance charges.
+The dataset contains demographic and lifestyle attributes such as age, BMI, smoking status, number of children, gender, and region, along with the corresponding insurance charges.
 
 ---
 
 ## 2. Business Objective
 
-Insurance companies need to:
+Insurance providers require insight into the drivers of medical costs in order to manage risk and price policies accurately.
 
-- Understand cost drivers
-- Identify high-risk customer segments
-- Price policies more accurately
-- Detect patterns that influence claim amounts
+Key objectives include:
 
-This analysis focuses on answering:
+- Understanding cost drivers  
+- Identifying high-risk customer segments  
+- Supporting more accurate pricing strategies  
+- Detecting patterns that influence claim amounts  
 
-- How does smoking affect insurance charges?
-- Does BMI significantly influence cost?
-- Are there regional differences in charges?
-- What is the overall distribution of charges?
+Key analytical questions:
+
+- How does smoking affect insurance charges?  
+- Does BMI significantly influence cost?  
+- Are there regional differences in charges?  
+- What is the distribution of insurance charges?
 
 ---
 
 ## 3. Dataset Description
 
-Features in the dataset:
+Dataset features:
 
 - `age` – Age of the individual  
 - `sex` – Gender  
 - `bmi` – Body Mass Index  
-- `children` – Number of dependents  
+- `children` – Number of dependents covered by insurance  
 - `smoker` – Smoking status (yes/no)  
 - `region` – Residential region  
 - `charges` – Medical insurance cost (target variable)
 
 ---
 
-## 4. Tools & Technologies Used
+## 4. Tools and Technologies Used
 
 - Python  
 - Pandas  
 - NumPy  
 - Matplotlib  
 - Seaborn  
-- Jupyter Notebook  
+- Jupyter Notebook
 
 ---
 
@@ -57,11 +59,13 @@ Features in the dataset:
 
 File: `charges_distribution.png`
 
-- Charges are right-skewed.
-- Majority of customers fall into lower charge ranges.
-- A smaller group has extremely high costs.
+Observations:
 
-Insight: High-cost outliers are likely associated with smokers or high-risk profiles.
+- Insurance charges are right-skewed  
+- Most individuals fall within lower charge ranges  
+- A smaller group generates significantly higher costs
+
+Insight: High-cost outliers are likely associated with smokers or individuals with higher health risk factors.
 
 ---
 
@@ -69,11 +73,13 @@ Insight: High-cost outliers are likely associated with smokers or high-risk prof
 
 File: `bmi_vs_charges.png`
 
-- Positive correlation between BMI and charges.
-- Higher BMI tends to increase insurance costs.
-- Relationship is stronger among smokers.
+Observations:
 
-Insight: BMI increases financial risk, especially when combined with smoking.
+- Positive relationship between BMI and insurance charges  
+- Higher BMI values tend to correspond with higher costs  
+- The relationship becomes stronger among smokers
+
+Insight: BMI contributes to financial risk, particularly when combined with smoking.
 
 ---
 
@@ -81,10 +87,12 @@ Insight: BMI increases financial risk, especially when combined with smoking.
 
 File: `charges_by_smoker.png`
 
-- Smokers have significantly higher charges than non-smokers.
-- The cost gap is substantial and consistent.
+Observations:
 
-Insight: Smoking status is the strongest predictor of high insurance charges.
+- Smokers incur significantly higher insurance charges than non-smokers  
+- The difference in cost is large and consistent
+
+Insight: Smoking status is the strongest predictor of elevated insurance costs.
 
 ---
 
@@ -92,24 +100,27 @@ Insight: Smoking status is the strongest predictor of high insurance charges.
 
 File: `boxplot_by_region.png`
 
-- Regional differences exist but are not extreme.
-- Some regions show slightly higher median charges.
+Observations:
 
-Insight: Region has limited influence compared to lifestyle factors.
+- Some variation exists across regions  
+- Median charges differ slightly between regions
+
+Insight: Regional location has limited influence compared to lifestyle-related variables.
 
 ---
 
 ## 6. Key Findings
 
-1. Smoking status is the most influential variable.
-2. BMI positively correlates with insurance charges.
-3. Charges are heavily right-skewed.
-4. Region has relatively minor impact.
-5. High-cost individuals are concentrated among smokers.
+1. Smoking status is the most influential variable affecting insurance charges  
+2. BMI shows a positive correlation with medical costs  
+3. Insurance charges have a strongly right-skewed distribution  
+4. Regional differences exist but have limited impact  
+5. High-cost individuals are primarily concentrated among smokers
 
 ---
 
 ## 7. Project Structure
+
 insurance-data-analysis/
 
 ├── Insurance Report.ipynb
