@@ -10,7 +10,7 @@ The dataset includes demographic and lifestyle factors such as age, BMI, smoking
 
 ## 2. Business Objective
 
-Insurance providers need clear insight into the factors driving medical costs to effectively assess risk and set accurate policy pricing.
+Insurance providers need a clear understanding of the factors driving medical costs to effectively assess risk and set accurate pricing for their policies.
 
 Key objectives include:
 
