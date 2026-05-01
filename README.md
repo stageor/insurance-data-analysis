@@ -4,7 +4,7 @@
 
 This project analyzes an insurance dataset to identify the primary factors driving medical insurance charges. It emphasizes determining which variables most significantly impact cost variations using structured exploratory data analysis and clear, focused visualizations.
 
-The dataset includes demographic and lifestyle factors such as age, BMI, smoking status, number of dependents, gender, and region, along with the associated insurance charges.
+The dataset contains demographic and lifestyle attributes including age, BMI, smoking status, number of dependents, gender, and region, along with the corresponding insurance charges.
 
 ---
 
