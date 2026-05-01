@@ -65,7 +65,7 @@ Observations:
 - Most individuals fall within lower charge ranges  
 - A smaller group generates significantly higher costs
 
-Insight: High-cost outliers are likely associated with smokers or individuals with higher health risk factors.
+Insight: High-cost outliers are predominantly linked to smokers and individuals with elevated health risk factors.
 
 ---
 
