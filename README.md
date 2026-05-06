@@ -2,7 +2,7 @@
 
 ## 1. Project Overview
 
-This project analyzes an insurance dataset to identify the primary factors driving medical insurance charges. It emphasizes determining which variables most significantly impact cost variations using structured exploratory data analysis and clear, focused visualizations.
+This project examines an insurance dataset to identify the key factors influencing medical insurance charges. The analysis focuses on understanding which variables contribute most to cost differences through structured exploratory data analysis and targeted visualizations.
 
 The dataset contains demographic and lifestyle attributes including age, BMI, smoking status, number of dependents, gender, and region, along with the corresponding insurance charges.
 
